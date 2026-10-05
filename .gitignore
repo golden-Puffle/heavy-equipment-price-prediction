@@ -1,0 +1,8 @@
+cat > .gitignore << 'EOF'
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.DS_Store
+/data/
+submission.csv
+EOF
